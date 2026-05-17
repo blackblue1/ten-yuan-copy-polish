@@ -37,6 +37,10 @@
 
 https://github.com/blackblue1/ten-yuan-copy-polish/issues/new/choose
 
+也可以直接在这个固定入口留言：
+
+https://github.com/blackblue1/ten-yuan-copy-polish/issues/1
+
 请不要在 Issue 里发布身份证、手机号、住址、银行卡、验证码等隐私信息。
 
 ## 下单消息模板
