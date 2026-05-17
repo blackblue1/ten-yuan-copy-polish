@@ -1,0 +1,46 @@
+name: 10 元文案快修下单
+description: 付款后在这里提交原文和修改要求
+title: "文案快修："
+labels: ["order"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请不要提交身份证、手机号、住址、银行卡、验证码等隐私信息。
+        如果内容不适合公开，请只放可公开处理的文案。
+  - type: textarea
+    id: original
+    attributes:
+      label: 原文
+      description: 中文 300 字以内，或英文 120 词以内。
+      placeholder: 在这里粘贴原文
+    validations:
+      required: true
+  - type: input
+    id: usage
+    attributes:
+      label: 用途
+      placeholder: 例如：朋友圈卖闲置 / 简历项目描述 / 商品介绍
+    validations:
+      required: true
+  - type: input
+    id: tone
+    attributes:
+      label: 希望语气
+      placeholder: 例如：自然一点 / 专业一点 / 更短一点
+    validations:
+      required: true
+  - type: input
+    id: keywords
+    attributes:
+      label: 必须保留的关键词
+      placeholder: 没有可写“无”
+    validations:
+      required: true
+  - type: input
+    id: avoid
+    attributes:
+      label: 不希望出现的表达
+      placeholder: 没有可写“无”
+    validations:
+      required: false
